@@ -15,7 +15,7 @@ const LandingPage = () => {
         className='blur-[2px]' 
         alt="" 
       /> */}
-      <section className="nav-padding w-full bg-slate-700 x-paddings flex flex-col gap-[26px]  z-40 sm:mb-[8rem] mb-20">
+      <section className="nav-padding w-full x-paddings flex flex-col gap-[26px]  z-40 sm:mb-[8rem] mb-20">
           <h1 className='heading3 text-center text-white'>Your Personal Financial Playground</h1>
           <h3 className='body-regular text-center text-white mb-2'>
           Dive into the world of decentralized finance like never before. <span className='paragraph-semibold'>LENSLEY</span> isn't just a platform; it's your digital playground where you can borrow, lend, and earn crypto with a dash of fun
