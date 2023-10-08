@@ -4,17 +4,6 @@ import Image from '@/node_modules/next/image'
 const LandingPage = () => {
   return (
     <main className="flex-center flex-col bg-blur paddings mx-auto w-full max-w-screen-2xl">
-      {/* <Image 
-        src="bg-texture.svg"
-        fill
-        quality={300}
-        sizes="100vw"
-        style={{
-        objectFit: 'cover',
-      }} 
-        className='blur-[2px]' 
-        alt="" 
-      /> */}
       <section className="nav-padding w-full x-paddings flex flex-col gap-[26px]  z-40 sm:mb-[8rem] mb-20">
           <h1 className='heading3 text-center text-white'>Your Personal Financial Playground</h1>
           <h3 className='body-regular text-center text-white mb-2'>

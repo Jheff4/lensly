@@ -82,7 +82,7 @@
   }
 
   .body-text {
-    @apply text-[20px] xl:text-start text-center leading-[26px] font-normal text-gondola;
+    @apply text-[18px] xl:text-start text-center leading-[26px] font-normal text-gondola;
   }
 
   .gov-text {
@@ -146,7 +146,7 @@
   }
 
   .bg-blur {
-    background-image: url('/gr.png');
+    background-image: url('/bg-textur.png');
     /* filter: blur(2px); */
     /* filter: blur(1px); */
     /* :-webkit-filter: blur(8px); */
