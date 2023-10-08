@@ -146,12 +146,11 @@
   }
 
   .bg-blur {
-    background-image: url('/bg-texture.svg');
+    background-image: url('/gr.png');
     /* filter: blur(2px); */
-    backdrop-filter: blur(10px);
+    /* filter: blur(1px); */
     /* :-webkit-filter: blur(8px); */
-    height: 100%;
-    
+    /* height: 100%; */
   }
 
   .footer-text {
