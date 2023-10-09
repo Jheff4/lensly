@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from './ui/button'
+import { HiMenu } from "react-icons/hi";
 
 const Navbar = () => {
   return (
@@ -53,13 +54,15 @@ const Navbar = () => {
         <div className='flex flex-row gap-[16px]'>  
           <Button className="p-button">Launch Dapp</Button>
           
-          <Image
+          {/* <Image
             src="/icon.svg"
             width={20}
             height={20}
             alt="Hamburger menu"
             className="block md:hidden bg-razzmatazz p-1.5 font-semibold rounded-[8px] w-8"
-          />
+          /> */}
+
+          <HiMenu className="block md:hidden bg-razzmatazz p-1 font-semibold rounded-[8px] text-[40px]"/>
         </div>
       </div>
     </nav>
