@@ -3,8 +3,8 @@ import Image from '@/node_modules/next/image'
 
 const LandingPage = () => {
   return (
-    <main className="flex-center flex-col bg-blur paddings mx-auto w-full max-w-screen-2xl">
-      <section className="nav-padding w-full x-paddings flex flex-col gap-[26px]  z-40 sm:mb-[8rem] mb-20">
+    <main className="flex-center flex-col bg-blur paddings w-full">
+      <section className="nav-padding x-paddings flex flex-col gap-[26px] z-10 sm:mb-[8rem] mb-20">
           <h1 className='heading3 text-center text-white'>Your Personal Financial Playground</h1>
           <h3 className='body-regular text-center text-white mb-2'>
           Dive into the world of decentralized finance like never before. <span className='paragraph-semibold'>LENSLEY</span> isn't just a platform; it's your digital playground where you can borrow, lend, and earn crypto with a dash of fun
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
       {/* SECOND SECTION */}
 
-      <section className='grid grid-cols-1 xl:grid-cols-[700px_minmax(300px,_1fr)] z-10 y-paddings gap-5 bg-white rounded-[32px] x-paddings md:mx-8'>
+      <section className='grid grid-cols-1 lg:grid-cols-[600px_minmax(250px,_1fr)] xl:grid-cols-[720px_minmax(300px,_1fr)] z-10 y-paddings gap-5 bg-white rounded-[32px] x-paddings min md:mx-[2.5rem] lg:mx-[5rem]'>
         <div className='flex flex-col justify-center gap-3 xl:pl-[5rem]'>
           <h2 className='heading4 md:pt-4'>Earn, Lend, Borrow – All in One Place</h2>
           <h3 className='body-text mb-2'>

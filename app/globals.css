@@ -54,7 +54,7 @@
   }
 
   .body-regular {
-    @apply text-[20px] font-normal leading-[20.8px] lg:mx-[12rem] sm:leading-[33.6px] tracking-[-0.25%];
+    @apply text-[20px] font-normal leading-[25px] md:mx-5 lg:mx-[8rem] xl:mx-[12rem] sm:leading-[33.6px] tracking-[-0.25%];
   }
 
   .body-semibold {
@@ -98,7 +98,7 @@
   }
 
   .y-paddings {
-    @apply sm:py-16 py-20;
+    @apply sm:py-10 py-16;
   }
 
   .x-paddings {
@@ -151,6 +151,10 @@
     /* filter: blur(1px); */
     /* :-webkit-filter: blur(8px); */
     /* height: 100%; */
+  }
+
+  .bg-blur-2 {
+    background-image: url('/bg-texture.png');
   }
 
   .footer-text {
