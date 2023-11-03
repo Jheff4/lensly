@@ -90,7 +90,7 @@
   }
 
   .nav-padding {
-    @apply pt-[150px];
+    @apply pt-[8rem];
   }
 
   .paddings {
@@ -98,7 +98,7 @@
   }
 
   .y-paddings {
-    @apply sm:py-10 py-16;
+    @apply sm:py-10 py-16 max-xs:py-8;
   }
 
   .x-paddings {
@@ -110,11 +110,11 @@
   }
 
   .y-button {
-    @apply bg-treePoppy-100 rounded-[100px] text-gondola p-[16px] text-[17px] font-semibold;
+    @apply bg-treePoppy-100 rounded-[100px] text-gondola p-4 text-base font-semibold;
   }
 
   .p-button {
-    @apply bg-razzmatazz rounded-[100px] text-white p-[16px] text-[17px] font-semibold;
+    @apply bg-razzmatazz rounded-[100px] text-white p-4 text-base font-semibold;
   }
 
   .flex-between {

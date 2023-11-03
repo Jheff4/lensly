@@ -11,8 +11,8 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(true);
 
   return (
-    <nav className='flex-center bg-cardinalPink-100 fixed top-0 z-20 w-full py-6 text-white transition-all'>
-      <div className={`${!navbar ? "flex justify-between max-md:flex-between max-md:flex-wrap mx-auto w-full max-w-screen-2xl lg:px-20 xs:px-8 sm:px-10" : "flex-between mx-auto w-full transition-all max-w-screen-2xl lg:px-20 xs:px-8 sm:px-10"}`}>
+    <nav className='flex-center bg-cardinalPink-100 fixed top-0 z-20 w-full py-6 text-white'>
+      <div className={`${!navbar ? "flex justify-between max-md:flex-between max-md:flex-wrap mx-auto w-full max-w-screen-2xl lg:px-20 xs:px-8 sm:px-10 max-xs:px-3" : "flex-between mx-auto w-full transition-all max-w-screen-2xl lg:px-20 xs:px-8 sm:px-10 max-xs:px-3"}`}>
         <Link href="/">
           <Image
             src="/lensly.svg"
@@ -124,7 +124,7 @@ const Navbar = () => {
           </Button>
 
           {navbar ? (<HiMenu 
-            className="block md:hidden bg-razzmatazz p-1 font-semibold rounded-[8px] transition-all text-[40px] cursor-pointer"
+            className="block md:hidden bg-razzmatazz p-1 font-semibold rounded-[8px] text-[40px] cursor-pointer"
             onClick={() => setNavbar(!navbar)}
           /> ) : ( <HiX className="block md:hidden bg-razzmatazz p-1 font-semibold rounded-[8px] transition-all text-[40px] order-2 cursor-pointer"
             onClick={() => setNavbar(!navbar)}
