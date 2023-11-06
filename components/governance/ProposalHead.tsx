@@ -9,8 +9,8 @@ const ProposalHead = () => {
   return (
     <>
       {/* <Proposal /> */}
-      <div className='flex flex-row items-start mb-8'>
-        <div className='flex flex-col md:flex-row md:items-center gap-5'>
+      <div className='flex flex-row items-start mb-8 gap-5'>
+        <div className='flex flex-col gap-5'>
           <h1 className='text-gondola text-2xl font-medium'>
             Proposals
           </h1>
@@ -22,7 +22,7 @@ const ProposalHead = () => {
 
         <div className="flex flex-row w-full justify-end">
           <Input 
-            className="max-w-[20rem] border rounded-[100px] rounded-r-none border-r-0 border-solid border-[#FFDDF7] text-[rgba(145,145,145,0.48)] text-xs font-semibold max-md:hidden"
+            className="w-[10rem] max-lg:w-[15rem] ml-2 border rounded-[100px] rounded-r-none border-r-0 border-solid border-[#FFDDF7] text-[rgba(145,145,145,0.48)] text-xs font-semibold max-md:hidden"
             type="search" 
             placeholder="Search Proposal"
           />

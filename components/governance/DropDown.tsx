@@ -52,7 +52,7 @@ const DropDown = () => {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[200px] justify-between flex bg-white items-center gap-6 border p-2.5 rounded-[28px] border-solid border-[#FFDDF7] text-[#919191] text-sm font-semibold"
+          className="w-[12.5rem] max-xs:w-fit justify-between flex bg-white items-center gap-6 border p-2.5 rounded-[28px] border-solid border-[#FFDDF7] text-[#919191] text-sm font-semibold shrink-0"
         >
           {value
             ? proposals.find((proposal) => proposal.value === value)?.label

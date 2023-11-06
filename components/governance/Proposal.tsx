@@ -5,7 +5,7 @@ import { Progress } from '../ui/progress'
 
 const Proposal = () => {
   return (
-    <>
+    <div className='md:flex-between gap-5'>
       {/* FIRST SECTION */}
       <div className='mb-8'>
         <h1 className='text-gondola text-2xl font-medium mb-4'>
@@ -89,7 +89,7 @@ const Proposal = () => {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
 
