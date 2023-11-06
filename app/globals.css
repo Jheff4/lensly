@@ -161,7 +161,7 @@
   }
 
   .gov-mobile-first {
-    @apply items-start;
+    @apply items-start sm:items-center;
   }
   
   .gov-p-desk {

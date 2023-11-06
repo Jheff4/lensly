@@ -7,8 +7,8 @@ const Proposal = () => {
   return (
     <>
       {/* FIRST SECTION */}
-      <div>
-        <h1 className='text-gondola text-2xl font-medium'>
+      <div className='mb-8'>
+        <h1 className='text-gondola text-2xl font-medium mb-4'>
           Update UI for accessibility
         </h1>
 
@@ -53,8 +53,8 @@ const Proposal = () => {
       </div>
 
       {/* SECOND SECTION */}  
-      <div>
-        <div className=''>
+      <div className='flex flex-col gap-4 mb-12'>
+        <div className='flex flex-col gap-2'>
 
           <div className='flex flex-row items-center justify-between'>
             <h2 className='text-gondola text-base font-medium'>
@@ -70,7 +70,7 @@ const Proposal = () => {
         
         </div>
         
-        <div>
+        <div className='flex flex-col gap-2'>
 
           <div className='flex flex-row items-center justify-between'>
 

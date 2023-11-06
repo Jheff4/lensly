@@ -9,8 +9,8 @@ const ProposalHead = () => {
   return (
     <>
       {/* <Proposal /> */}
-      <div className='flex flex-row items-start'>
-        <div className='flex flex-col md:flex-row md:items-center'>
+      <div className='flex flex-row items-start mb-8'>
+        <div className='flex flex-col md:flex-row md:items-center gap-5'>
           <h1 className='text-gondola text-2xl font-medium'>
             Proposals
           </h1>
