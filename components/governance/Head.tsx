@@ -10,8 +10,8 @@ const Head = () => {
     <div>
       <Tabs defaultValue="proposals" className="w-full ease-in md:hidden flex items-center flex-col mt-[4rem]">
         <TabsList className="flex flex-row justify-between border bg-white rounded-[100px] items-center border-solid border-[#FFDDF7] w-fit p-1.5">
-          <TabsTrigger className="aria-selected:bg-cardinalPink aria-selected:text-white text-sm px-[3.7rem] sm:px-[4rem] font-semibold rounded-[100px] text-[#919191]" value="proposals">Proposals</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-cardinalPink aria-selected:text-white text-sm px-[3.7rem] sm:px-[4rem] font-semibold rounded-[100px] text-[#919191]" value="info">Your info</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-cardinalPink aria-selected:text-white text-sm px-[3rem] sm:px-[4rem] font-semibold rounded-[100px] text-[#919191]" value="proposals">Proposals</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-cardinalPink aria-selected:text-white text-sm px-[3rem] sm:px-[4rem] font-semibold rounded-[100px] text-[#919191]" value="info">Your info</TabsTrigger>
         </TabsList>
 
         <TabsContent 
