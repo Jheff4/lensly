@@ -1,11 +1,9 @@
-import React from 'react'
-import { Button } from '../ui/button'
 import Image from 'next/image'
 import { Progress } from '../ui/progress'
 
 const Proposal = () => {
   return (
-    <div className='md:flex-between gap-5'>
+    <div className='md:justify-start lg:flex-between md:grid md:grid-cols-2 md:col-span-2 gap-10 w-full lg:grid-cols-1 lg:border-b-2 border-solid border-[#FFDDF7]'>
       {/* FIRST SECTION */}
       <div className='mb-8'>
         <h1 className='text-gondola text-2xl font-medium mb-4'>
@@ -53,10 +51,10 @@ const Proposal = () => {
       </div>
 
       {/* SECOND SECTION */}  
-      <div className='flex flex-col gap-4 mb-12'>
-        <div className='flex flex-col gap-2'>
+      <div className='flex flex-col gap-4 mb-12 '>
+        <div className='flex flex-col gap-2 '>
 
-          <div className='flex flex-row items-center justify-between'>
+          <div className='flex flex-row items-center justify-between gap-2'>
             <h2 className='text-gondola text-base font-medium'>
               YAE 200 LENSLY
             </h2>
