@@ -23,14 +23,17 @@ const Info = () => {
             <p className='text-gondola text-2xl font-medium'>0.45</p>
           </div>
           <div className='grid grid-cols-1 items-start'>
-            <p className='text-[#919191] text-sm font-semibold flex flex-row gap-1'>Proposition power
-            <Image 
-              src="/info.svg"
-              alt="info"
-              width={15}
-              height={15}
-              className=""
-            />
+            <p className='text-[#919191] text-sm font-semibold flex flex-row gap-1'>Proposition power 
+            <div>
+
+              <Image 
+                src="/info.svg"
+                alt="info"
+                width={15}
+                height={15}
+                className=""
+              />
+            </div>
             </p>
             <p className='text-gondola text-2xl font-medium'>0.45</p>
           </div>
