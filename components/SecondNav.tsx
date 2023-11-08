@@ -33,7 +33,7 @@ const Navbar = () => {
         {navbar ? (<ul className='flex-center gap-x-3 md:gap-x-10 max-md:hidden'>
           <li className='!font-bold'>
             <Link
-              href="#"
+              href="/dashboard"
               target=""
             >
               Dashboard
@@ -92,8 +92,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold md:hidden'>
             <Link
-              href="#"
-              target="_blank"
+              href="/dashboard"
+              target=""
             >
               Dashboard
             </Link>

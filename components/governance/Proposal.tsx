@@ -3,7 +3,7 @@ import { Progress } from '../ui/progress'
 
 const Proposal = () => {
   return (
-    <div className='md:justify-start lg:flex-between md:grid md:grid-cols-2 md:col-span-2 gap-10 w-full lg:grid-cols-1 lg:border-b-2 border-solid border-[#FFDDF7]'>
+    <div className='md:justify-start lg:flex-between md:grid md:grid-cols-2 md:col-span-2 gap-10 w-full lg:grid-cols-1'>
       {/* FIRST SECTION */}
       <div className='mb-8'>
         <h1 className='text-gondola text-2xl font-medium mb-4'>

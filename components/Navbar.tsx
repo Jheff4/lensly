@@ -33,8 +33,8 @@ const Navbar = () => {
         {navbar ? (<ul className='flex-center gap-x-3 md:gap-x-10 max-md:hidden'>
           <li className='!font-bold'>
             <Link
-              href="#"
-              target="_blank"
+              href="/"
+              target=""
             >
               Home
             </Link>

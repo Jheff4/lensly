@@ -32,7 +32,7 @@ const Head = () => {
       </Tabs>
 
       <div className='max-lg:hidden flex flex-row items-start gap-4 justify-center mt-[4.5rem]'>
-        <div className='max-lg:max-w-fit shrink-0 bg-white rounded-lg border-2 border-solid border-[#FFDDF7] px-6 pt-10 pb-6 sm:px-8'>
+        <div className='max-lg:max-w-fit shrink-0 bg-white rounded-lg border-2 border-solid border-[#FFDDF7] px-6 sm:px-8 pt-10 pb-6'>
           <ProposalHead />
           <Proposal />
           <Proposal />

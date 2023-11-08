@@ -9,7 +9,7 @@ const ProposalHead = () => {
   return (
     <>
       {/* <Proposal /> */}
-      <div className='flex flex-row items-start mb-8 gap-5 lg:border-b-2 border-solid border-[#FFDDF7]'>
+      <div className='flex flex-row items-start mb-8 gap-5'>
         <div className='flex flex-col gap-5'>
           <h1 className='text-gondola text-2xl font-medium'>
             Proposals
@@ -51,3 +51,5 @@ export default ProposalHead
   height={10}
   className=""
 /> */}
+
+// lg:border-b-2 border-solid border-[#FFDDF7]

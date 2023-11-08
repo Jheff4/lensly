@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from '@/node_modules/next/image'
+import Link from 'next/link'
 
 const LandingPage = () => {
   return (
@@ -50,7 +51,9 @@ const LandingPage = () => {
         </h3>
         <div className='flex-center flex-row gap-5 max-xs:gap-3 max-xs:px-3'>
           <Button className='y-button'>
-            Governance forum
+            <Link href="/governance">
+              Governance forum
+            </Link>
           </Button>
           <Button className='p-button'>
             Learn more
