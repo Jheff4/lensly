@@ -13,11 +13,11 @@ const Dashboard = () => {
       </section>
 
       {/* SECOND SECTION */}
-      <section className="all-nav max-md:hidden">
+      <section className="all-nav max-lg:hidden">
         <Claim />
       </section>
 
-      <section>
+      <section className="max-lg:all-nav max-lg:px-[8rem] max-md:px-0">
         <Main />
       </section>
     </main>

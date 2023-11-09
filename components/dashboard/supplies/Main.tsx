@@ -4,7 +4,7 @@ import Supplies from './Supplies'
 const Main = () => {
   return (
     <div className='w-1/2 max-lg:w-full'>
-      <h1 className='shrink-0 bg-white rounded-t-lg border-2 border-solid py-8 px-6 border-[rgba(255,221,247,0.87)] text-gondola text-[2rem] font-medium'>
+      <h1 className='shrink-0 bg-white rounded-t-lg border-2 border-solid py-8 px-6 max-lg:px-10 max-lg:border-b-0 border-[rgba(255,221,247,0.87)] text-gondola text-[2rem] font-medium'>
         Your Supplies
       </h1>
       <Supplies />
