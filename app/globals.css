@@ -146,7 +146,7 @@
   }
 
   .side-pads {
-    @apply max-xs:px-4 px-8 max-md:px-8
+    @apply max-xs:px-4 px-9 max-md:px-8
   }
 
   .all-nav {

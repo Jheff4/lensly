@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Governance = () => {
   return (
-    <main className="flex flex-col bg-blur paddings bg-blur-2 min-h-screen bg-white side-pads">
+    <main className="flex flex-col paddings bg-blur-2 min-h-screen bg-white side-pads">
       {/* FIRST SECTION */}
       <section className="gov-desktop-first max-md:gov-mobile-first all-nav">
         <h3 className="text-[#291720] text-base font-semibold leading-[normal]">Available of Tenet</h3>

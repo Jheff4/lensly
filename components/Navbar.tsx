@@ -68,8 +68,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold md:hidden'>
             <Link
-              href="#"
-              target="_blank"
+              href="/dashboard"
+              target=""
             >
               Dashboard
             </Link>
