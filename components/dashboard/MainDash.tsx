@@ -9,9 +9,9 @@ const MainDash = () => {
     <div>
       <Tabs defaultValue="supply" className="w-full ease-in lg:hidden flex items-center flex-col mt-[4rem]">
         <TabsList className="flex flex-row justify-between border bg-cardinalPink rounded-[100px] items-center w-fit p-1.5">
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[2rem] px-[3rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="supply">Supply</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[2rem] px-[3rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="borrow">Borrow</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[2rem] px-[3rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="claim">Claim</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="supply">Supply</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="borrow">Borrow</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="claim">Claim</TabsTrigger>
         </TabsList>
 
         <TabsContent 
