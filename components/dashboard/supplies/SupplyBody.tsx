@@ -17,7 +17,7 @@ const SupplyBody = () => {
           <span className="w-full max-xl:w-1/2 xl:hidden">
             <SupplyHead />
           </span>
-          <div className="max-xl:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-xl:border-l-0 flex max-sm:gap-9 max-xs:gap-10 gap-10 max-xl:gap-8 items-center py-6 max-xl:px-10 px-4 max-xl:flex-col max-xl:pb-[10rem] max-xl:items-end">
+          <div className="max-xl:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-xl:border-l-0 flex max-sm:gap-[2.1rem] max-xs:gap-10 gap-10 max-xl:gap-8 items-center py-6 max-xl:px-10 px-4 max-xl:flex-col max-xl:pb-[10rem] max-xl:items-end">
             <span className="text-gondola text-base font-semibold flex gap-1 xl:w-[3rem] items-center bg-white">
               <Image 
                 src={image}
