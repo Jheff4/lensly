@@ -17,7 +17,7 @@ const AssetsSBody = () => {
           <span className="w-full max-xl:w-1/2 xl:hidden">
             <AssetsSHead />
           </span>
-          <div className="max-xl:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-xl:border-l-0 flex gap-10 max-xl:gap-8 items-center py-6 max-xl:px-10 px-4 max-xl:flex-col max-xl:pb-[10rem] max-xl:items-end">
+          <div className="max-xl:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-xl:border-l-0 flex gap-10 max-xl:gap-8 items-center py-6 max-xl:px-10 max-xs:gap-[2rem] px-4 max-xl:flex-col max-xl:pb-[10rem] max-xl:items-end">
             <span className="text-gondola text-base font-semibold flex gap-1 xl:w-[3rem] items-center bg-white">
               <Image 
                 src={image}
