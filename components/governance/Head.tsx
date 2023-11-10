@@ -4,7 +4,6 @@ import Proposal from './Proposal'
 import ProposalHead from './ProposalHead'
 import Info from './Info'
 
-
 const Head = () => {
   return (
     <div>

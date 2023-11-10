@@ -3,7 +3,7 @@ import { Button } from "../ui/button"
 
 const Claim = () => {
   return (
-    <div className='flex items-center w-1/2 shrink-0 rounded-lg border-2 border-solid border-[rgba(255,221,247,0.87)] bg-white py-8 px-6 justify-between mb-2'>
+    <div className='flex items-center w-1/2 shrink-0 rounded-lg border-2 border-solid border-[rgba(255,221,247,0.87)] bg-white py-6 px-4 justify-between mb-2 -ml-3'>
       <span className="text-gondola text-2xl font-medium inline-flex items-center gap-2">
         <Image 
           src="/Info.svg"

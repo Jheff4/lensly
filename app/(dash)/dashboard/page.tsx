@@ -1,5 +1,5 @@
 import Claim from "@/components/dashboard/Claim"
-import Main from "@/components/dashboard/supplies/Main"
+import MainDash from "@/components/dashboard/MainDash"
 import Tabs from "@/components/dashboard/Tabs"
 
 const Dashboard = () => {
@@ -13,12 +13,12 @@ const Dashboard = () => {
       </section>
 
       {/* SECOND SECTION */}
-      <section className="all-nav max-lg:hidden">
+      <section className="all-nav max-xl:hidden max-w-screen-2xl mx-auto pl-3">
         <Claim />
       </section>
 
-      <section className="max-lg:all-nav max-lg:px-[8rem] max-md:px-0">
-        <Main />
+      <section>
+        <MainDash />
       </section>
     </main>
   )

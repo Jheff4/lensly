@@ -43,13 +43,3 @@ const ProposalHead = () => {
 }
 
 export default ProposalHead
-
-{/* <Image
-  src="/down.svg"
-  alt="down"
-  width={10}
-  height={10}
-  className=""
-/> */}
-
-// lg:border-b-2 border-solid border-[#FFDDF7]
