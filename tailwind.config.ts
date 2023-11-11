@@ -9,7 +9,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xxs: "350px", // special cases
+      xxx: "365px", // special cases
+      xxs: "380px", // special cases
       xs: "400px",
       xsm: "425px", // special cases
       ssm: "500px", // special cases
