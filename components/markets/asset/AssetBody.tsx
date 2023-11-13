@@ -17,7 +17,7 @@ const AssetBody = () => {
           <span className="w-full max-lg:w-1/2 lg:hidden">
             <AssetHead />
           </span>
-          <div className="max-lg:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-lg:border-l-0 max-sm:gap-9 flex gap-12 max-md:gap-[2.7rem] lg:gap-[5rem] max-lg:gap-[2.2rem] items-center py-6 max-lg:px-10 px-4 max-lg:flex-col max-lg:pb-[8rem] max-lg:items-end">
+          <div className="max-lg:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-lg:border-l-0 max-sm:gap-[2.45rem] flex gap-12 max-md:gap-[2.35rem] lg:gap-[5rem] max-lg:gap-[2.2rem] items-center py-6 max-lg:px-10 px-4 max-lg:flex-col max-lg:pb-[8rem] max-lg:items-end">
             <span className="text-gondola text-base font-semibold flex gap-1 lg:w-[3rem] items-center bg-white">
               <Image 
                 src={image}
