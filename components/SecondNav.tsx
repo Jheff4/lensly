@@ -65,8 +65,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href="#"
-              target="_blank"
+              href="/stakes"
+              target=""
             >
               Stakes
             </Link>
@@ -108,8 +108,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href="#"
-              target="_blank"
+              href=""
+              target=""
             >
               WhitePaper
             </Link>
@@ -124,16 +124,16 @@ const Navbar = () => {
           </li>
           <li className='!font-bold md:hidden'>
             <Link
-              href="#"
-              target="_blank"
+              href="/stakes"
+              target=""
             >
               Stakes
             </Link>
           </li>
           <li className='!font-bold'>
             <Link
-              href="#"
-              target="_blank"
+              href=""
+              target=""
             >
               FAQ's
             </Link>
