@@ -1,57 +1,53 @@
 import Image from "next/image"
 import { Button } from "../../ui/button"
-import LTNHead from "./LTNHead"
 
 const LTNBody = () => {
   return (
-    <>
-
-      {[
-        ['/TENET.svg', 'Tenet'],
-        // ['/logo2.svg', 'Lensly'],
-        // ['/USDC.svg', 'USDC'],
-        // ['/USDT.svg', 'USDT'],
-      ].map(([image, name], index) => (
-        
-        <div key={index} className="flex flex-row xl:flex-col max-xl:flex-wrap max-xl:relative max-xl:mb-[9px] max-xl:border-t-2 max-xl:border-[#FFDDF7]">
-          <span className="w-full max-xl:w-1/2 xl:hidden">
-            <LTNHead />
-          </span>
-          <div className="max-xl:w-1/2 border-2 border-solid border-[#FFDDF7] border-t-0 max-xl:border-l-0 max-sm:gap-9 flex gap-12 2xl:gap-14 max-xl:gap-8 items-center py-6 max-xl:px-10 px-4 max-xl:flex-col max-xl:pb-[10rem] max-xl:items-end">
-            <span className="text-gondola text-base font-semibold flex gap-1 xl:w-[3rem] items-center bg-white">
+    <div className="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-lg:rounded-lg max-lg:border-2 max-lg:border-solid max-lg:border-[#FFDDF7] bg-white max-lg:py-6 max-lg:px-4">  
+      <div className="shrink-0 rounded-lg border-2 border-solid border-[rgb(255,221,247)] text-center py-10 px-6">
+        <div className="flex flex-col mb-10">
+          <h2 className="text-gondola text-base font-semibold mb">Staked LTN</h2>
+          <h1 className="text-gondola text-[2rem] font-medium">0</h1>
+          <span className="text-[#919191] text-xs font-semibold -mt-2">$0</span>
+        </div>
+        <div className="flex flex-col gap-2">
+          <Button className="flex justify-center items-center p-4 rounded-[100px] text-white text-base font-bold bg-[#C8C8C8]">Cooldown to unstake</Button>
+          <div className="flex justify-between">
+            <span className="text-[#919191] text-xs font-semibold flex items-center gap-1">
+              Cooldown period
               <Image 
-                src={image}
-                alt={name}
-                width={22}
-                height={22}
+                src="/Info.svg"
+                alt="info"
+                width={10}
+                height={10}
                 className=""
               />
-              {name}
             </span>
-            <span className='text-[#291720] text-base font-semibold'>
-              $2,500
-            </span>
-            <span className="text-[#4CAF50] text-base font-semibold">32.2%</span>
-            {/* <Image 
-              src="/checkg.svg"
-              alt="check"
-              width={25}
-              height={25}
-              className=""
-            /> */}
-            <div className="flex gap-2 max-xl:hidden xl:-ml-2">
-              <Button className="flex justify-center items-center gap-2.5 py-4 px-8 rounded-[100px] bg-cardinalPink-100 text-white text-base font-bold">Borrow</Button>
-              <Button className="flex justify-center items-center gap-2.5 py-4 px-8 rounded-[100px] bg-razzmatazz text-white text-base font-bold">Repay</Button>
-            </div>
-          </div>
-          <div className="flex gap-2 flex-col w-full xl:hidden max-xl:absolute px-8 max-xl:bottom-6">
-            <Button className="flex justify-center items-center gap-2.5 py-6 rounded-[100px] bg-cardinalPink-100 text-white text-base font-bold">Borrow</Button>
-            <Button className="flex justify-center items-center gap-2.5 py-6 rounded-[100px] bg-razzmatazz text-white text-base font-bold">Repay</Button>
+            <span className="text-gondola text-xs font-semibold">20d</span>
           </div>
         </div>
-      ))}    
-    
-    </>
+      </div>
+      
+      
+      <div className="shrink-0 rounded-lg border-2 border-solid border-[rgb(255,221,247)] text-center py-10 px-6">
+        <div className="flex flex-col mb-10">
+          <h2 className="text-gondola text-base font-semibold mb">Claimable LTN</h2>
+          <h1 className="text-gondola text-[2rem] font-medium">0</h1>
+          <span className="text-[#919191] text-xs font-semibold -mt-2">$0</span>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-center gap-2 max-xl:flex-col">
+            <Button className="flex justify-center items-center py-4 px-8 rounded-[100px] text-white w-full text-base font-bold bg-[#C8C8C8]">Claim</Button>
+          </div> 
+          <div className="flex justify-between">
+            <span className="text-[#919191] text-xs font-semibold">
+              Lensly per month
+            </span>
+            <span className="text-gondola text-xs font-semibold">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 

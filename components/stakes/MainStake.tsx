@@ -5,32 +5,24 @@ import MainLTN from "./stkLTN/MainLTN"
 const MainStake = () => {
   return (
     <div>
-      <Tabs defaultValue="supply" className="w-full ease-in lg:hidden flex items-center flex-col mt-[4rem]">
+      <Tabs defaultValue="stake lensly" className="w-full ease-in lg:hidden flex items-center flex-col mt-[4rem]">
         <TabsList className="flex flex-row justify-between border bg-cardinalPink rounded-[100px] items-center w-fit p-1.5">
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="supply">Supply</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="borrow">Borrow</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="claim">Claim</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[1rem] sm:px-[2rem] font-semibold rounded-[100px] text-treePoppy-100" value="stake lensly">Stake LENSLY</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="stake LTN">Stake LTN</TabsTrigger>
         </TabsList>
 
         <TabsContent 
-          value="supply"
+          value="stake lensly"
           className="shrink-0 w-full sm:px-[4rem] md:px-[8rem] mt-[2rem]"
         >
           <MainLen />
         </TabsContent>
 
         <TabsContent 
-          value="borrow"
+          value="stake LTN"
           className="shrink-0 w-full sm:px-[4rem] md:px-[8rem] mt-[2rem]"
         >
           <MainLTN />
-        </TabsContent>
-        
-        <TabsContent 
-          value="claim"
-          className="shrink-0 w-full sm:px-[4rem] md:px-[8rem] mt-[2rem]"
-        >
-          <MainLen />
         </TabsContent>
       </Tabs>
 

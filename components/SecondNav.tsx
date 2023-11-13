@@ -49,8 +49,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href="#"
-              target="_blank"
+              href=""
+              target=""
             >
               WhitePaper
             </Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href="#"
+              href=""
               target=""
             >
               FAQ's
@@ -84,8 +84,8 @@ const Navbar = () => {
         (<ul className='flex-center gap-x-10 max-md:order-3 max-md:bg-cardinalPink-100 max-md:h-screen max-md:flex-col max-md:gap-10 max-md:w-full max-md:justify-start max-md:pt-[5rem] max-md:flex-start relative'>
           <li className='!font-bold max-md:hidden'>
             <Link
-              href="#"
-              target="_blank"
+              href="/"
+              target=""
             >
               Home
             </Link>
