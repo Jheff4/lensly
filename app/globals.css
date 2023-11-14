@@ -171,6 +171,10 @@
   .gov-p-mob {
     @apply w-[20rem] max-xs:w-full text-start text-base;
   }
+
+  .stak-p-mob {
+    @apply w-[27rem] max-xs:w-full text-start text-base;
+  }
     
     
 

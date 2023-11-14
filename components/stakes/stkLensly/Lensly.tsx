@@ -15,7 +15,7 @@ const Lensly = () => {
         Lensly
       </span>
 
-      <div className="flex flex-row gap-4 max-xl:w-full max-xl:justify-between max-xl:px-5 max-sm:flex-col">
+      <div className="flex flex-row gap-3 max-xl:w-full max-xl:justify-between max-xl:px-5 max-sm:flex-col xl:ml-7">
         <div className="flex flex-col text-center max-sm:flex-row max-sm:items-center max-md:justify-between">
           <span className="text-[#919191] text-xs font-semibold">Staking APR</span>
           <span className='text-[#291720] text-base font-semibold'>6.88%</span>
@@ -32,7 +32,7 @@ const Lensly = () => {
         </div>
       </div>
 
-      <Button className="flex justify-center items-center gap-2.5 py-4 px-[1.17rem] rounded-[100px] bg-cardinalPink-100 text-white text-base font-bold max-xl:w-full">Stake</Button>
+      <Button className="flex justify-center items-center gap-2.5 py-4 px-[2rem] rounded-[100px] bg-cardinalPink-100 text-white text-base font-bold max-xl:w-full">Stake</Button>
     </div>
   )
 }
