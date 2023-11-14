@@ -17,23 +17,19 @@ const Governance = () => {
             className=""
           />
 
-          <h1 className="text-[#291720] text-2xl font-semibold leading-[normal]">
+          <h1 className="text-[#291720] text-2xl font-semibold">
             Lensly Governance
           </h1>
         </div>
 
-        <p className="text-[#291720] gov-p-desk max-md:gov-p-mob font-normal leading-[normal]">
+        <p className="text-[#291720] gov-p-desk max-md:gov-p-mob font-normal">
           Lensly is a decentralized community governed by the Lensly token-holders
         </p>
       </section>
 
       {/* SECOND SECTION */}
-
       <section>
-        {/* <ProposalHead /> */}
-        {/* <Proposal /> */}
         <Head />
-        {/* <Info /> */}
       </section>
     </main>
   )
