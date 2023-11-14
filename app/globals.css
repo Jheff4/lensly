@@ -173,7 +173,7 @@
   }
 
   .stak-p-mob {
-    @apply w-[27rem] max-xs:w-full text-start text-base;
+    @apply max-w-[27rem] max-xs:w-full text-start text-base;
   }
     
     
