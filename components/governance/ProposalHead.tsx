@@ -3,12 +3,13 @@
 import { Input } from '../ui/input'
 import Image from 'next/image'
 import DropDown from './DropDown'
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Modal from '../SearchDialog';
 
 const ProposalHead = () => {
 
-  const [search, setSearch] = useState(true);
+  const [search, setSearch] = 
+    React.useState<any>("");
 
   return (
     <>
@@ -29,6 +30,7 @@ const ProposalHead = () => {
             className="w-[10rem] max-lg:w-[15rem] ml-2 border rounded-[100px] rounded-r-none border-r-0 border-solid border-[#FFDDF7] text-[rgba(145,145,145,0.48)] text-xs font-semibold max-md:hidden"
             type="search" 
             placeholder="Search Proposal"
+            onChange={(e) => setSearch(e.target.value)}
           />
           <div className="w-fit border rounded-[100px] rounded-l-none border-l-0 border-solid border-[#FFDDF7] flex pr-6 cursor-pointer bg-white items-center max-md:border-none max-md:p-0 max-md:hidden">
             <Image 
@@ -37,10 +39,12 @@ const ProposalHead = () => {
               width={20}
               height={20}
               className=""
-              onClick={() => setSearch(!search)}
             />
           </div>
-          <Modal />
+          <Modal 
+            search {...search}
+            setSearch {...setSearch}
+          />
         </div>
       </div>
     </>

@@ -1,10 +1,10 @@
 import Footer from '@/components/Footer'
-import SecondNav from '@/components/SecondNav'
+import Navbar from '@/components/SecondNav'
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <SecondNav />
+      <Navbar />
       {children}
     </>
   )

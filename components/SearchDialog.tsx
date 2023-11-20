@@ -2,17 +2,18 @@ import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
+  // DialogDescription,
   DialogFooter,
   DialogHeader,
-  DialogTitle,
+  // DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+// import { Label } from "@/components/ui/label"
 import Image from "next/image"
 
-const Modal = () => {
+const Modal = ({ search, setSearch}: any) => {
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -34,11 +35,17 @@ const Modal = () => {
               defaultValue=""
               placeholder="Search Proposal"
               className="col-span-4 bg-cardinalPink text-white"
+              onChange={(e) => setSearch(e.target.value)}
             />
           </div>
         </div>
         <DialogFooter className="items-center flex">
-          <Button className="bg-cardinalPink w-fit text-white" type="submit">Search</Button>
+          <Button 
+            className="bg-cardinalPink w-fit text-white" 
+            type="submit"
+          >
+            Search
+          </Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

@@ -19,18 +19,18 @@ const Navbar = () => {
             alt="logo"
             width={100}
             height={35}
-            className="max-md:hidden"
+            className="max-lg:hidden"
           />
           <Image
             src="/Logo.svg"
             alt="logo"
             width={40}
             height={30}
-            className="block md:hidden order-1"
+            className="block lg:hidden order-1"
           />
         </Link>
 
-        {navbar ? (<ul className='flex-center gap-x-3 md:gap-x-10 max-md:hidden'>
+        {navbar ? (<ul className='flex-center gap-x-3 md:gap-x-3 xl:gap-x-7 max-md:hidden md:text-[0.9rem] lg:text-lg'>
           <li className='!font-bold'>
             <Link
               href="/dashboard"
@@ -49,8 +49,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href=""
-              target=""
+              href="https://lensly-finance.gitbook.io/lensly-document/"
+              target="#"
             >
               WhitePaper
             </Link>
@@ -108,8 +108,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href=""
-              target=""
+              href="https://lensly-finance.gitbook.io/lensly-document/"
+              target="#"
             >
               WhitePaper
             </Link>

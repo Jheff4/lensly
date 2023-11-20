@@ -41,8 +41,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href=""
-              target=""
+              href="https://lensly-finance.gitbook.io/lensly-document/"
+              target="#"
             >
               WhitePaper
             </Link>
@@ -84,8 +84,8 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href=""
-              target=""
+              href="https://lensly-finance.gitbook.io/lensly-document/"
+              target="#"
             >
               WhitePaper
             </Link>
