@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <li className='!font-bold'>
             <Link
-              href="/governance"
+              href=""
               target=""
             >
               Governance
@@ -116,7 +116,7 @@ const Navbar = () => {
           </li>
           <li className='!font-bold md:hidden'>
             <Link
-              href="/governance"
+              href=""
               target=""
             >
               Governance

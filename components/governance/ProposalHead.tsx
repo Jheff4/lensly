@@ -20,7 +20,7 @@ const ProposalHead = () => {
             Proposals
           </h1>
           <div className="inline-flex items-center gap-4">
-            <p className='text-[#919191] text-sm font-semibold'>Filter</p>
+            <p className='text-alto text-sm font-semibold'>Filter</p>
             <DropDown />
           </div>
         </div>

@@ -11,7 +11,7 @@ const Info = () => {
         </div>
         <div className='flex-between md:justify-around flex-row'>
           <div className='grid grid-cols-1 items-start'>
-            <p className='text-[#919191] text-sm font-semibold flex flex-row gap-1'>Voting power 
+            <p className='text-alto text-sm font-semibold flex flex-row gap-1'>Voting power 
             <Image 
               src="/Info.svg"
               alt="info"
@@ -23,7 +23,7 @@ const Info = () => {
             <p className='text-white text-2xl font-medium'>0.45</p>
           </div>
           <div className='grid grid-cols-1 items-start'>
-            <p className='text-[#919191] text-sm font-semibold flex flex-row gap-1'>Proposition power 
+            <p className='text-alto text-sm font-semibold flex flex-row gap-1'>Proposition power 
             <Image 
               src="/Info.svg"
               alt="info"
@@ -39,7 +39,7 @@ const Info = () => {
 
       <div className="md:items-center lg:items-start md:flex md:flex-col">
         <h1 className='text-white text-2xl font-medium mt-16'>Delegated power</h1>
-        <p className='text-[#919191] mt-4 text-sm font-semibold md:w-[30rem] lg:w-full'>
+        <p className='text-alto mt-4 text-sm font-semibold md:w-[30rem] lg:w-full'>
           Use your LENSLY and stkLENSLY balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time.
         </p>
         <Button className='max-w-[18rem] mt-8 flex w-full justify-center items-center gap-2.5 p-4 main-btn-2 text-white text-base font-bold'>

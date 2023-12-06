@@ -24,17 +24,17 @@ const LTN = () => {
 
       <div className="flex flex-row gap-4 max-xl:w-full max-xl:justify-between max-xl:px-5 max-sm:flex-col xl:ml-3">
         <div className="flex flex-col text-center max-sm:flex-row max-sm:items-center max-md:justify-between">
-          <span className="text-[#919191] text-xs font-semibold">Staking APR</span>
+          <span className="text-alto text-xs font-semibold">Staking APR</span>
           <span className='text-white text-base font-semibold'>6.88%</span>
         </div>
 
         <div className="flex flex-col text-center max-sm:flex-row max-sm:items-center max-md:justify-between">
-          <span className="text-[#919191] text-xs font-semibold">Max Slashing</span>
+          <span className="text-alto text-xs font-semibold">Max Slashing</span>
           <span className='text-white text-base font-semibold'>32.2%</span>
         </div>
 
         <div className="flex flex-col text-center max-sm:flex-row max-sm:items-center max-md:justify-between">
-          <span className="text-[#919191] text-xs font-semibold">Wallet Balance</span>
+          <span className="text-alto text-xs font-semibold">Wallet Balance</span>
           <span className='text-white text-base font-semibold'>500</span>
         </div>
       </div>

@@ -22,11 +22,11 @@ const Proposal = () => {
             Active
           </span>
 
-          <span className='text-[#919191] text-[0.625rem] font-semibold'>
+          <span className='text-alto text-[0.625rem] font-semibold'>
             in 3 days
           </span>
 
-          <span className='text-[#919191] text-[0.625rem] font-semibold flex items-center gap-1'>
+          <span className='text-alto text-[0.625rem] font-semibold flex items-center gap-1'>
             Quorum
             <Image 
               src="/cross.svg"
@@ -37,7 +37,7 @@ const Proposal = () => {
             />
           </span>
 
-          <span className='text-[#919191] text-[0.625rem] font-semibold flex items-center gap-1'>
+          <span className='text-alto text-[0.625rem] font-semibold flex items-center gap-1'>
             Differential
             <Image 
               src="/cross.svg"
@@ -59,7 +59,7 @@ const Proposal = () => {
               YAE 200 LENSLY
             </h2>
 
-            <div className='text-[#919191] text-sm font-medium'>
+            <div className='text-alto text-sm font-medium'>
               73.00%
             </div>
           </div>
@@ -76,7 +76,7 @@ const Proposal = () => {
               YAE 13 LENSLY
             </h2>
           
-            <div className='text-[#919191] text-sm font-medium'>
+            <div className='text-alto text-sm font-medium'>
               27.00%
             </div>
           

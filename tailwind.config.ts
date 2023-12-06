@@ -29,7 +29,6 @@ module.exports = {
       },
     },
     extend: {
-      backgroundColor: ["target"],
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
