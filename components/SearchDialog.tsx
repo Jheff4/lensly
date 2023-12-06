@@ -34,14 +34,14 @@ const Modal = ({ search, setSearch}: any) => {
               id="name"
               defaultValue=""
               placeholder="Search Proposal"
-              className="col-span-4 bg-cardinalPink text-white"
+              className="col-span-4 bg-mirage text-white"
               onChange={(e) => setSearch(e.target.value)}
             />
           </div>
         </div>
         <DialogFooter className="items-center flex">
           <Button 
-            className="bg-cardinalPink w-fit text-white" 
+            className="bg-mirage w-fit text-white" 
             type="submit"
           >
             Search

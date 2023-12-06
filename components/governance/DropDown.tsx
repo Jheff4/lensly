@@ -52,7 +52,7 @@ const DropDown = () => {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[12.5rem] max-xs:w-fit justify-between flex bg-white items-center gap-6 border p-2.5 rounded-[28px] border-solid border-[#FFDDF7] text-[#919191] text-sm font-semibold shrink-0"
+          className="w-[12.5rem] max-xs:w-fit justify-between flex bg-mirage items-center gap-6 border p-2.5 rounded-[28px] border-solid border-stormGray text-alto text-sm font-semibold shrink-0"
         >
           {value
             ? proposals.find((proposal) => proposal.value === value)?.label
@@ -60,7 +60,7 @@ const DropDown = () => {
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[200px] p-0 border-solid border-[#FFDDF7] text-[#919191] text-sm font-semibold bg-white">
+      <PopoverContent className="w-[200px] p-0 border-solid border-stormGray text-alto text-sm font-semibold bg-mirage">
         <Command>
           <CommandInput placeholder="Search proposals..." />
           <CommandEmpty>No proposal found.</CommandEmpty>

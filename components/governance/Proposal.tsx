@@ -6,7 +6,7 @@ const Proposal = () => {
     <div className='md:justify-start lg:flex-between md:grid md:grid-cols-2 md:col-span-2 gap-10 w-full lg:grid-cols-1'>
       {/* FIRST SECTION */}
       <div className='mb-8'>
-        <h1 className='text-gondola text-2xl font-medium mb-4'>
+        <h1 className='text-white text-2xl font-medium mb-4'>
           Update UI for accessibility
         </h1>
 
@@ -55,7 +55,7 @@ const Proposal = () => {
         <div className='flex flex-col gap-2 '>
 
           <div className='flex flex-row items-center justify-between gap-2'>
-            <h2 className='text-gondola text-base font-medium'>
+            <h2 className='text-white text-base font-medium'>
               YAE 200 LENSLY
             </h2>
 
@@ -72,7 +72,7 @@ const Proposal = () => {
 
           <div className='flex flex-row items-center justify-between'>
 
-            <h2 className='text-gondola text-base font-medium'>
+            <h2 className='text-white text-base font-medium'>
               YAE 13 LENSLY
             </h2>
           

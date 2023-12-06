@@ -1,4 +1,4 @@
-import Footer from '@/components/Footer'
+import SecondFooter from '@/components/SecondFooter'
 import SecondNav from '@/components/SecondNav'
 
 const layout = ({ children }: { children: React.ReactNode }) => {
@@ -6,7 +6,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
     <>
       <SecondNav />
       {children}
-      {/* <Footer /> */}
+      <SecondFooter />
     </>
   )
 }

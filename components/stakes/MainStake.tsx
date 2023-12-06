@@ -6,9 +6,9 @@ const MainStake = () => {
   return (
     <div>
       <Tabs defaultValue="stake lensly" className="w-full ease-in lg:hidden flex items-center flex-col mt-[4rem]">
-        <TabsList className="flex flex-row justify-between border bg-cardinalPink rounded-[100px] items-center w-fit p-1.5">
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[1rem] sm:px-[2rem] font-semibold rounded-[100px] text-treePoppy-100" value="stake lensly">Stake LENSLY</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="stake LTN">Stake LTN</TabsTrigger>
+        <TabsList className="flex flex-row justify-between border bg-ebonyClay rounded-[100px] items-center w-fit p-1.5">
+          <TabsTrigger className="aria-selected:bg-stormGray text-sm max-xs:px-[1.5rem] px-[1rem] sm:px-[2rem] font-semibold rounded-[100px] text-white" value="stake lensly">Stake LENSLY</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-stormGray text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-white" value="stake LTN">Stake LTN</TabsTrigger>
         </TabsList>
 
         <TabsContent 

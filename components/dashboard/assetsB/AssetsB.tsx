@@ -4,7 +4,7 @@ import AssetsBHead from "./AssetsBHead"
 
 const AssetsB = () => {
   return (     
-    <div className="flex flex-col bg-white">
+    <div className="flex flex-col">
       <span className="w-full max-xl:w-1/2 max-xl:hidden">
         <AssetsBHead />
       </span>

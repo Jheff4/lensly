@@ -3,7 +3,7 @@ import Image from "next/image"
 const Staking = () => {
   return (
     <>
-      <h3 className="text-[#291720] text-base font-semibold">Available of Tenet</h3>
+      <h3 className="text-white text-base font-semibold">Available of Tenet</h3>
 
       <div className="flex items-center gap-2">
         <Image 
@@ -14,12 +14,12 @@ const Staking = () => {
           className=""
         />
 
-        <h1 className="text-[#291720] text-2xl font-semibold">
+        <h1 className="text-white text-2xl font-semibold">
           Staking
         </h1>
       </div>
 
-      <p className="text-[#291720] gov-p-desk max-sm:stak-p-mob font-normal">
+      <p className="text-white gov-p-desk max-sm:stak-p-mob font-normal">
       LENSLY token-holders can stake their tokens in the Safety Module to add more security to the protocol and earn Safety Incentives
       </p>
     </>

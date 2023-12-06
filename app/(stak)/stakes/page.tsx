@@ -4,7 +4,7 @@ import Tabs from "@/components/stakes/Tabs"
 
 const Stakes = () => {
   return (
-    <main className="paddings bg-blur-2 min-h-screen bg-white side-pads">
+    <main className="paddings bg-blur-2 min-h-screen side-pads">
       {/* FIRST SECTION */}
       <section className="gov-desktop-first max-sm:gov-mobile-first all-nav w-full items-center max-sm:mb-6 mb-10">
         <Staking />

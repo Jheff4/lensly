@@ -19,7 +19,7 @@ const LandingPage = () => {
 
       {/* SECOND SECTION */}
 
-      <section className='grid grid-cols-1 lg:grid-cols-[600px_minmax(250px,_1fr)] xl:grid-cols-[720px_minmax(300px,_1fr)] z-10 y-paddings gap-5 bg-white rounded-[32px] x-paddings md:mx-[2.5rem] lg:mx-[5rem] max-xs:px-3'>
+      <section className='grid grid-cols-1 lg:grid-cols-[600px_minmax(250px,_1fr)] xl:grid-cols-[720px_minmax(300px,_1fr)] z-10 y-paddings gap-5 bg-ebonyClay rounded-[32px] x-paddings md:mx-[2.5rem] lg:mx-[5rem] max-xs:px-3'>
         <div className='flex flex-col justify-center gap-3 xl:pl-[5rem]'>
           <h2 className='heading4 md:pt-4'>Earn, Lend, Borrow – All in One Place</h2>
           <h3 className='body-text mb-2'>

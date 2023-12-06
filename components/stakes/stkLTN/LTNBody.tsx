@@ -3,11 +3,11 @@ import { Button } from "../../ui/button"
 
 const LTNBody = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-lg:rounded-lg max-lg:border-2 max-lg:border-solid max-lg:border-[#FFDDF7] bg-white max-lg:py-6 max-lg:px-4">  
-      <div className="shrink-0 rounded-lg border-2 border-solid border-[rgb(255,221,247)] text-center py-10 px-6">
+    <div className="grid grid-cols-2 gap-4 max-xl:grid-cols-1 max-lg:rounded-lg max-lg:border max-lg:border-solid max-lg:border-stormGray bg-ebonyClay max-lg:py-6 max-lg:px-4">  
+      <div className="shrink-0 rounded-lg border border-solid border-stormGray text-center py-10 px-6">
         <div className="flex flex-col mb-10">
-          <h2 className="text-gondola text-base font-semibold mb">Staked LTN</h2>
-          <h1 className="text-gondola text-[2rem] font-medium">0</h1>
+          <h2 className="text-white text-base font-semibold mb">Staked LTN</h2>
+          <h1 className="text-white text-[2rem] font-medium">0</h1>
           <span className="text-[#919191] text-xs font-semibold -mt-2">$0</span>
         </div>
         <div className="flex flex-col gap-2">
@@ -23,16 +23,16 @@ const LTNBody = () => {
                 className=""
               />
             </span>
-            <span className="text-gondola text-xs font-semibold">20d</span>
+            <span className="text-white text-xs font-semibold">20d</span>
           </div>
         </div>
       </div>
       
       
-      <div className="shrink-0 rounded-lg border-2 border-solid border-[rgb(255,221,247)] text-center py-10 px-6">
+      <div className="shrink-0 rounded-lg border border-solid border-stormGray text-center py-10 px-6">
         <div className="flex flex-col mb-10">
-          <h2 className="text-gondola text-base font-semibold mb">Claimable LTN</h2>
-          <h1 className="text-gondola text-[2rem] font-medium">0</h1>
+          <h2 className="text-white text-base font-semibold mb">Claimable LTN</h2>
+          <h1 className="text-white text-[2rem] font-medium">0</h1>
           <span className="text-[#919191] text-xs font-semibold -mt-2">$0</span>
         </div>
         <div className="flex flex-col gap-2">
@@ -43,7 +43,7 @@ const LTNBody = () => {
             <span className="text-[#919191] text-xs font-semibold">
               Lensly per month
             </span>
-            <span className="text-gondola text-xs font-semibold">0</span>
+            <span className="text-white text-xs font-semibold">0</span>
           </div>
         </div>
       </div>

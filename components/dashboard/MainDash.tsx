@@ -8,10 +8,10 @@ const MainDash = () => {
   return (
     <div>
       <Tabs defaultValue="supply" className="w-full ease-in lg:hidden flex items-center flex-col mt-[4rem]">
-        <TabsList className="flex flex-row justify-between border bg-cardinalPink rounded-[100px] items-center w-fit p-1.5">
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="supply">Supply</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="borrow">Borrow</TabsTrigger>
-          <TabsTrigger className="aria-selected:bg-white aria-selected:text-gondola text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-treePoppy-100" value="claim">Claim</TabsTrigger>
+        <TabsList className="flex flex-row justify-between border border-solid border-[#74738B] bg-ebonyClay rounded-[100px] items-center w-fit p-1.5">
+          <TabsTrigger className="aria-selected:bg-[#74738B] aria-selected:text-white text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-white" value="supply">Supply</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-[#74738B] aria-selected:text-white text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-white" value="borrow">Borrow</TabsTrigger>
+          <TabsTrigger className="aria-selected:bg-[#74738B] aria-selected:text-white text-sm max-xs:px-[1.5rem] px-[2rem] sm:px-[3rem] font-semibold rounded-[100px] text-white" value="claim">Claim</TabsTrigger>
         </TabsList>
 
         <TabsContent 

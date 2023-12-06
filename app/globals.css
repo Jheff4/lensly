@@ -1,18 +1,17 @@
-@import url('https://fonts.cdnfonts.com/css/chillax');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @layer utilities {
-  .paddle-checkout {
-    @apply min-h-screen w-full py-10 md:py-20 lg:w-1/2;
-  }
-
+  /* #card:nth-last-of-type(odd) {
+    @apply rounded-xl;
+  } */
   .hero-height {
     @apply min-h-[calc(100vh-100px)];
   }
@@ -74,7 +73,7 @@
   }
 
   .heading4 {
-    @apply font-semibold text-[30px] leading-[26px] tracking-[0.25%] text-gondola text-center xl:text-start;
+    @apply font-semibold text-[30px] leading-[26px] tracking-[0.25%] text-white text-center xl:text-start;
   }
 
   .heading5 {
@@ -82,7 +81,7 @@
   }
 
   .body-text {
-    @apply text-[18px] xl:text-start text-center leading-[26px] font-normal text-gondola;
+    @apply text-[18px] xl:text-start text-center leading-[26px] font-normal text-white;
   }
 
   .gov-text {
@@ -110,11 +109,19 @@
   }
 
   .y-button {
-    @apply bg-treePoppy-100 rounded-[100px] text-gondola p-4 text-base font-semibold;
+    @apply bg-electricViolet text-white p-4 text-base font-semibold;
   }
 
   .p-button {
-    @apply bg-razzmatazz rounded-[100px] text-white p-4 text-base font-semibold;
+    @apply text-white p-4 rounded-[100px] text-base font-semibold;
+  }
+
+  .main-btn {
+    @apply rounded-lg bg-meteorite;
+  }
+
+  .main-btn-2 {
+    @apply rounded-lg bg-electricViolet;
   }
 
   .flex-between {
@@ -175,11 +182,17 @@
   .stak-p-mob {
     @apply max-w-[27rem] max-sm:w-full text-start text-base;
   }
-    
-    
+
+  .tabs-border {
+    @apply bg-ebonyClay rounded-lg border border-solid border-[#74738B];
+  }
+
+  .main-layout {
+    @apply bg-ebonyClay border border-solid border-[#74738B];
+  }
 
   .bg-blur {
-    background-image: url('/bg-textur.png');
+    /* background-image: url('/bg-textur.png'); */
     /* filter: blur(2px); */
     /* filter: blur(1px); */
     /* :-webkit-filter: blur(8px); */
@@ -187,7 +200,7 @@
   }
 
   .bg-blur-2 {
-    background-image: url('/bg-texture.png');
+    /* background-image: url('/bg-texture.png'); */
   }
 
   .footer-text {

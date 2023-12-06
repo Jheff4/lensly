@@ -3,10 +3,10 @@ import Image from "next/image"
 
 const Governance = () => {
   return (
-    <main className="flex flex-col paddings bg-blur-2 min-h-screen bg-white side-pads">
+    <main className="flex flex-col paddings bg-blur-2 min-h-screen side-pads">
       {/* FIRST SECTION */}
       <section className="gov-desktop-first max-md:gov-mobile-first all-nav">
-        <h3 className="text-[#291720] text-base font-semibold leading-[normal]">Available of Tenet</h3>
+        <h3 className="text-white text-base font-semibold leading-[normal]">Available of Tenet</h3>
 
         <div className="flex items-center gap-2">
           <Image 
@@ -17,12 +17,12 @@ const Governance = () => {
             className=""
           />
 
-          <h1 className="text-[#291720] text-2xl font-semibold">
+          <h1 className="text-white text-2xl font-semibold">
             Lensly Governance
           </h1>
         </div>
 
-        <p className="text-[#291720] gov-p-desk max-md:gov-p-mob font-normal">
+        <p className="text-white gov-p-desk max-md:gov-p-mob font-normal">
           Lensly is a decentralized community governed by the Lensly token-holders
         </p>
       </section>

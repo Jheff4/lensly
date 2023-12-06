@@ -29,21 +29,18 @@ module.exports = {
       },
     },
     extend: {
+      backgroundColor: ["target"],
       fontFamily: {
-        chillax: ["Chillax", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#820263",
-        cardinalPink: {
-          DEFAULT: "#820263",
-          100: "#820263",
+        primary: "#1C1B33",
+        mirage: {
+          DEFAULT: "#1C1B33",
+          100: "#1C1B33",
           200: "#FFF"
-        },
-        treePoppy: {
-          100: "#FB8B24",
-          200: "#55616D",
         },
         white: {
           DEFAULT: "#FFF",
@@ -53,15 +50,12 @@ module.exports = {
         },
         purple: "#8C7CFF",
         pink: "#ED5FBD",
-        violet: "#F16565",
-        orange: "#FF964B",
-        razzmatazz: "#D90368",
+        meteorite: "#411F68",
+        electricViolet: "#9B0EDA",
+        ebonyClay: "#252444",
+        stormGray: "#74738B",
         greenHaze: "#04A777",
-        gondola: "#291720",
-        // fruitSalad: "#4CAF50",
-      },
-      backgroundImage: {
-        banner: "url('/public/bg-texture.svg')",
+        alto: "#E0E0E0",
       },
       keyframes: {
         "accordion-down": {

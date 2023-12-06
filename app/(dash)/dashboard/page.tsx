@@ -4,7 +4,7 @@ import Tabs from "@/components/dashboard/Tabs"
 
 const Dashboard = () => {
   return (
-    <main className="paddings bg-blur-2 min-h-screen bg-white side-pads">
+    <main className="paddings side-pads">
       {/* FIRST SECTION */}
       <section className="all-nav flex justify-center">
         <div className="w-full max-md:max-w-[30rem]">

@@ -3,7 +3,7 @@ import Main from "@/components/markets/asset/Main"
 
 const Markets = () => {
   return (
-    <main className="paddings bg-blur-2 min-h-screen bg-white side-pads items-center flex flex-col">
+    <main className="paddings bg-blur-2 min-h-screen side-pads items-center flex flex-col">
       {/* FIRST SECTION */}
       <section className="all-nav flex justify-center">
         <div className="w-full max-md:max-w-[30rem]">

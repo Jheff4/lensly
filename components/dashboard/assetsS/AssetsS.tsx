@@ -4,7 +4,7 @@ import AssetsSHead from "./AssetsSHead"
 
 const AssetsS = () => {
   return (     
-    <div className="flex flex-col bg-white">
+    <div className="flex flex-col bg-mirage">
       <span className="w-full max-xl:w-1/2 max-xl:hidden">
         <AssetsSHead />
       </span>
