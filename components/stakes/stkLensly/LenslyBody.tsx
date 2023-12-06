@@ -11,7 +11,7 @@ const LenslyBody = () => {
           <span className="text-[#919191] text-xs font-semibold -mt-2">$0</span>
         </div>
         <div className="flex flex-col gap-2">
-          <Button className="flex justify-center items-center p-4 rounded-[100px] text-white text-base font-bold bg-[#C8C8C8]">Cooldown to unstake</Button>
+          <Button className="flex justify-center items-center p-4 main-btn text-white text-base font-bold">Cooldown to unstake</Button>
           <div className="flex justify-between">
             <span className="text-[#919191] text-xs font-semibold flex items-center gap-1">
               Cooldown period
@@ -37,8 +37,8 @@ const LenslyBody = () => {
         </div>
         <div className="flex flex-col gap-2">
           <div className="flex justify-center gap-2 max-xl:flex-col">
-            <Button className="flex justify-center items-center py-4 px-8 rounded-[100px] text-white text-base font-bold bg-[#C8C8C8]">Claim</Button>
-            <Button className="flex justify-center items-center py-4 px-5 rounded-[100px] text-white text-base font-bold bg-[#C8C8C8]">Restake</Button>
+            <Button className="flex justify-center items-center py-4 px-8 main-btn text-white text-base font-bold">Claim</Button>
+            <Button className="flex justify-center items-center py-4 px-5 main-btn text-white text-base font-bold">Restake</Button>
           </div> 
           <div className="flex justify-between">
             <span className="text-[#919191] text-xs font-semibold">

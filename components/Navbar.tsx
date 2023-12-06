@@ -120,7 +120,7 @@ const Navbar = () => {
         <div className='flex flex-row gap-[16px]'>  
           <Button 
             className={`${!navbar ? "p-button bg-ebonyClay border border-solid border-[#74738B] max-md:hidden" : "p-button border border-solid border-[#74738B]"}`}>
-              Launch Dapp
+              Connect wallet
           </Button>
 
           {navbar ? (<HiMenu 
